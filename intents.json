@@ -1,0 +1,26 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up?", "how is it going?"],
+  "responses": ["Hello!", "Hey!", "What can I do for you?"]
+},
+{"tag": "goodbye",
+  "patterns": ["see ya", "cya", "see you later", "I am leaving", "Have a good day", "bye", "ciao"],
+  "responses": ["Sad to see you go:(", "Talk to you later", "Goodbye!"]
+},
+{"tag": "age",
+  "patterns": ["how old", "how old are you?", "how old is your creator?", "what is your age?", "age?"],
+  "responses": ["My creator Sophia is 19 years old!", "19 years!"]
+},
+{"tag": "name",
+  "patterns": ["what is your name?", "what should I call you?", "whats your name?", "who are you?", "Can you tell me what to call you?"],
+  "response":["You can call me Skylar Bot!", "I'm Skylar Bot", "I'm Skylar Bot the assistant of Sophia!"]
+},
+{"tag": "task",
+  "patterns": ["What do you do?", "What assist do you help your creator with?", "what do you help Sophia do?", "what is your purpose?"],
+  "responses": ["Skylar Bot's sole purpose is to assist and organize Sophia's day"]
+},
+{"tag": "hours",
+  "patterns": ["how often do you assist?", "how many hours do you assist?", "what's your work hour?", "hours?"],
+  "responses": ["Skylar Bot assists 24/7"]
+}
+]}
